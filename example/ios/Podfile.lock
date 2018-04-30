@@ -1,0 +1,38 @@
+PODS:
+  - Flutter (1.0.0)
+  - LBXScan/LBXNative (2.2):
+    - LBXScan/Types (~> 2.2)
+  - LBXScan/Types (2.2)
+  - LBXScan/UI (2.2):
+    - LBXScan/Types (~> 2.2)
+  - MTBBarcodeScanner (5.0.1)
+  - qr_scanner (0.0.1):
+    - Flutter
+    - LBXScan/LBXNative
+    - LBXScan/UI
+    - MTBBarcodeScanner
+
+DEPENDENCIES:
+  - Flutter (from `Pods/.symlinks/flutter/ios`)
+  - qr_scanner (from `Pods/.symlinks/plugins/qr_scanner/ios`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - LBXScan
+    - MTBBarcodeScanner
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Pods/.symlinks/flutter/ios
+  qr_scanner:
+    :path: Pods/.symlinks/plugins/qr_scanner/ios
+
+SPEC CHECKSUMS:
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  LBXScan: 31b69c9657404133324e6b68ef814802ef9cacc0
+  MTBBarcodeScanner: 66c75f40cbac5986c97634a0775bfe7f92243e7c
+  qr_scanner: 1d43f327caae128fbb95f169cf8ca2870645af5d
+
+PODFILE CHECKSUM: 13dcf421f4da2e937a57e8ba760ed880beae536f
+
+COCOAPODS: 1.5.0

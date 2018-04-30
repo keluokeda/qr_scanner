@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.example.qrscanner">
+
+    <!-- 在这里配置权限和activity，就不用在项目中配置了 -->
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <application>
+        <activity
+            android:name=".QRScanActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            >
+        </activity>
+    </application>
+
+</manifest>
