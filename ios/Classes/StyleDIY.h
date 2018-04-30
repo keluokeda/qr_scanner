@@ -5,6 +5,8 @@
 //  Created by lbxia on 2017/4/1.
 //  Copyright © 2017年 lbx. All rights reserved.
 //
+#define LBXScan_Define_Native  //下载了native模块
+#define LBXScan_Define_UI     //下载了界面模块
 
 #import <Foundation/Foundation.h>
 #import <LBXScanViewStyle.h>

@@ -7,7 +7,7 @@
 #define LBXScan_Define_UI     //下载了界面模块
 
 #import "LBXAlertAction.h"
-#import <LBXScanViewController.h>
+#import "LBXScanViewController.h"
 #import "BarcodeScannerViewControllerDelegate.h"
 
 
